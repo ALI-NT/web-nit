@@ -1,0 +1,237 @@
+body{
+    margin: 1px;
+    /* background-color: #2f3640; */
+    /* background-color: #1e272e; */
+    background-color: rgb(29, 29, 29);
+    /* background-color: darkslategray; */
+}
+
+/* =========== header ========== */
+
+header{
+    height: 70px;
+    background-color: black;
+    border-radius: 8px;
+    position: fixed;
+    right: 1px;
+    left: 1px;
+    top: 1px;
+    z-index: 1;
+}
+header div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+header nav{
+    display: inline-block;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 0px;
+}
+header nav ul li{
+    margin-left: 15px;
+    margin-top: 4px;
+}
+header nav ul li button{
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 17;
+    background-color: rgb(225, 189, 26);
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+    color: black;
+}
+header nav ul li button:hover {
+    transform: scale(1.05);
+}
+header h2{
+    font-size: 50px;
+    /* color:rgba(244, 96, 54) */
+    color:rgba(230, 194, 41);
+    display: inline-block;
+    margin: 0px;
+    position: absolute;
+    left: 650px;
+}
+header img{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+/* =========== main ========== */
+
+.div-main{
+    position: relative;
+    margin-top: 75px;
+    height: 630px;
+}
+main{
+    display: inline-block;
+}
+
+.articles{
+    display: flex;
+}
+.article{
+    background-color: black;
+    width: 628px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+}
+.article:hover{
+    transform: scale(1.005);
+}
+.articles h2 {
+    margin: 15px;
+}
+.articles a {
+    display: block;
+    color: rgb(195, 148, 8);
+    text-decoration: none;
+    transition: transform 0.25s ease-in-out;
+    width: fit-content;
+}
+.articles a:hover {
+    transform: scale(1.05);
+}
+.articles p {
+    color: aliceblue;
+    margin: 15px;
+}
+
+.div-main2 {
+    display: flex;
+}
+
+.table{
+    background-color: rgb(195, 148, 8);
+    width: 412px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.table table{
+    margin: 5px;
+}
+.table th,td {
+    background-color: black;
+    color: aliceblue;
+    width: 129.5px;
+    height: 94px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.img{
+    width: 412px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.video{
+    background-color: black;
+    width: 412px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* =========== aside ========== */
+
+aside{
+    background-color: black;
+    width: 200px;
+    height: 630px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    border-radius: 15px;
+}
+aside h2{
+    font-size: 30px;
+    color: rgba(230, 194, 41);
+    text-align: center;
+}
+aside ul{
+    text-align: center;
+    padding: 0px;
+    list-style-type: none;
+}
+aside button{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: rgba(230, 194, 41);
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+}
+aside button:hover{
+    transform: scale(1.05);
+}
+
+/* =========== footer ========== */
+
+footer p{
+    text-decoration: overline;
+    color: rgb(82, 86, 89);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* =========== single text ==========  */
+
+.single {
+    background-color: black;
+    width: 1276px;
+    height: 500px;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 20px;
+}
+.single h2 {
+    margin: 15px;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.single a {
+    display: block;
+    color: rgb(195, 148, 8);
+    text-decoration: none;
+    transition: transform 0.25s ease-in-out;
+    width: fit-content;
+}
+.single a:hover {
+    transform: scale(1.05);
+}
+.single p {
+    color: aliceblue;
+    margin: 15px;
+    padding-bottom: 10px;
+}
